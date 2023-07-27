@@ -13,20 +13,20 @@
 // 9 (Múltiplo de 9)
 // 10
 
-"use strict"
+"use strict";
 
-let linea = " -------------------------------- "
-for (let i = 0; i < 500; i++) {
-    console.log(i)
-    
-    if(i % 5 === 0 && i !== 500){
-        console.log(linea)
-    }
-    if(i % 4 === 0){
-        console.log(`${i} Es multiplo de 4`)
-    }else if(i % 5 === 0){
-      console.log(`${i} Es multiplo de 5`)
-    }else if(i % 9 === 0){
-      console.log(`${i} Es multiplo de 9`)
-    }
+let linea = "--------------------------------";
+
+for (let i = 1; i <= 500; i++) {
+  if (i % 4 === 0 && i % 9 === 0) {
+    console.log(`${i} Es múltiplo de 4 y 9`);
+  } else if (i % 4 === 0) {
+    console.log(`${i} Es múltiplo de 4`);
+  } else if (i % 9 === 0) {
+    console.log(`${i} Es múltiplo de 9`);
+  }
+
+  if (i % 5 === 0 && i !== 500) {
+    console.log(linea);
+  }
 }
