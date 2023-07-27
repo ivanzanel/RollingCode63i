@@ -1,0 +1,26 @@
+let numero = 4;
+
+
+//Si NO es un numero, ingresa al if
+if(isNaN(numero)) {
+  console.log("No ingresó un número válido.");
+} else if (!(numero >= 0 && numero <= 10)) {
+  // ES un numero, pero fuera del rango
+  console.log ("Ingrese un numero dentro del rango establecido")
+} else {
+  //Rango 0-2 
+if (numero >= 0 && numero <= 2) {
+  console.log('Muy deficiente');
+} else if (numero <= 4) {
+  console.log ('Insuficiente');
+} else if (numero <= 6) {
+  console.log ('Suficiente');
+} else if (numero === 7) {
+  console.log ('Bien');
+} else if (numero <= 9) {
+  console.log ('Notable');
+} else {
+  console.log ('Sobresaliente');
+}
+    }          
+           
