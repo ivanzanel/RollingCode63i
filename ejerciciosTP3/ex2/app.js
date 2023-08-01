@@ -13,4 +13,3 @@ Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona
 "use strict";
 
 
-window.alert("Un mensaje");
