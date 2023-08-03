@@ -20,5 +20,20 @@ D
 
 "use strict";
 
+function calcularPerimetroRectangulo(ladoA, ladoB) {
+    const perimetro = 2 * (ladoA + ladoB);
+     return perimetro;
+ }
+ 
+ function main() {
+     const ladoA = parseFloat(prompt("Ingrese el valor del primer lado del rectángulo:"));
+     const ladoB = parseFloat(prompt("Ingrese el valor del segundo lado del rectángulo:"));
+     
+     const perimetro = calcularPerimetroRectangulo(ladoA, ladoB);
+     
+     console.log("El perímetro del rectángulo es:", perimetro);
+ }
+ 
+ main();
 
-window.alert("Un mensaje");
+
