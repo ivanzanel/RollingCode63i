@@ -17,3 +17,5 @@ function parImpar(numero) {
     return "impar";
   }
 }
+
+//Resuelto

@@ -37,3 +37,4 @@ function calcularPerimetroRectangulo(ladoA, ladoB) {
  main();
 
 
+//Resuelto
